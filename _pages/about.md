@@ -2,7 +2,6 @@
 layout: about
 title: About
 permalink: /
-subtitle: Columbia University, MSCS (May 2027)
 
 profile:
   align: right
@@ -19,7 +18,7 @@ latest_posts:
   enabled: false
 ---
 
-Hi, I’m Aryan, a graduate student in Computer Science at [Columbia
+Hi, I’m Aryan, currently studying Computer Science at [Columbia
 University](https://www.columbia.edu/) in New York City.
 
 At Columbia, I’m working with Prof. [Lydia
@@ -37,11 +36,12 @@ Wyss-Gallifent](https://www.cs.umd.edu/people/immortal) (Principal Lecturer) and
 Prof. [Clifford Bakalian](https://www.cs.umd.edu/people/cyb) (Lecturer), and I
 worked with Prof. [Vlassis Mastrantonis](https://vmastr.github.io/) (H.C. Wang
 Assistant Professor at Cornell University) through the [Directed Reading
-Program](https://drp.math.umd.edu/) on a talk about Brouwer’s Fixed Point Theorem
+Program on a talk about Brouwer’s Fixed Point Theorem
 ([slides](http://drp.math.umd.edu/Project-Slides/KaulSpring2021.pdf)).
 
-Previously, I was a software engineer at Amazon working on Kindle mobile
-applications. I shipped features, improved reliability through crash/ANR triage,
+Previously, I was a software engineer at Amazon working on [Kindle mobile
+applications](https://www.aboutamazon.com/news/devices/kindle-app-guide). I
+shipped features, improved reliability through crash/ANR triage,
 added monitoring for key health metrics, led accessibility improvements, and
 contributed to a design system built from the ground up. At Dell, I consolidated
 cross-program reporting and built real-time dashboards for executives.
@@ -50,6 +50,3 @@ I’m grateful to my professors for their support throughout my journey, includi
 Prof. Wyss-Gallifent, Prof. Mastrantonis, and Prof. [Michael
 Hicks](https://directory.seas.upenn.edu/michael-hicks/) (Cecilia Fitler Moore
 Professor at the University of Pennsylvania).
-
-[Download CV (PDF)](/assets/pdf/Aryan-Kaul-CV.pdf){: .btn .btn-primary }
-[Download Resume (PDF)](/assets/pdf/Aryan-Kaul-Resume.pdf){: .btn .btn-outline-primary }
