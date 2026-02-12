@@ -18,7 +18,7 @@ latest_posts:
   enabled: false
 ---
 
-Hi, I’m Aryan, currently studying Computer Science at [Columbia
+Hi, I’m currently studying Computer Science at [Columbia
 University](https://www.columbia.edu/) in New York City.
 
 At Columbia, I’m working with Prof. [Lydia
@@ -37,7 +37,7 @@ Prof. [Clifford Bakalian](https://www.cs.umd.edu/people/cyb) (Lecturer), and I
 worked with Prof. [Vlassis Mastrantonis](https://vmastr.github.io/) (H.C. Wang
 Assistant Professor at Cornell University) through the [Directed Reading
 Program on a talk about Brouwer’s Fixed Point Theorem
-([slides](http://drp.math.umd.edu/Project-Slides/KaulSpring2021.pdf)).
+[slides](http://drp.math.umd.edu/Project-Slides/KaulSpring2021.pdf).
 
 Previously, I was a software engineer at Amazon working on [Kindle mobile
 applications](https://www.aboutamazon.com/news/devices/kindle-app-guide). I
