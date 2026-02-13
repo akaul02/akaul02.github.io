@@ -216,19 +216,22 @@ ul.task-list input[type="checkbox"] {
 
 .timeline-scroll ul.timeline {
   padding-left: 1.4rem;
-  list-style: none;
+  list-style-type: disc;
+  list-style-position: outside;
 }
 
 .timeline-scroll ul.timeline li {
-  padding-left: 0.8rem;
+  padding-left: 0.6rem;
   text-indent: 0;
   margin-bottom: 0.5rem;
 }
 
 .timeline-scroll ul.timeline li::before {
   top: 0.1rem;
-  left: 0;
+  left: 0.25rem;
   min-height: 100%;
+  width: 2px;
+  background: var(--global-theme-color);
 }
 
 .contact-icons--about {
