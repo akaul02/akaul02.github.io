@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/resume/";
           },
+        },{id: "nav-publications",
+          title: "Publications",
+          description: "Publications",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
         },{
       id: 'light-theme',
       title: 'Change theme to light',
@@ -39,14 +46,5 @@ ninja.data = [{
       section: 'Theme',
       handler: () => {
         setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
       },
     },];
