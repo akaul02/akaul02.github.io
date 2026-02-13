@@ -8,7 +8,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   alt: "Aryan in graduation attire standing in front of the McKeldin Mall fountain with the UMD library in the background."
-  more_info: "McKeldin Mall,<br>University of Maryland"
 
 selected_papers: false
 social: true
@@ -44,7 +43,15 @@ digital reading experience on [Kindle](https://www.aboutamazon.com/news/devices/
 I also spent a summer at Dell, where I consolidated cross-program reporting and
 built real-time dashboards for executives.
 
-**Timeline**
+I’m grateful to my professors for their continued support throughout my journey,
+including Prof. Wyss-Gallifent, Prof. Mastrantonis, and Prof. [Michael
+Hicks](https://www.cis.upenn.edu/~mhna/) (Professor, University of
+Pennsylvania). I’m also grateful to [James
+Haager](https://www.linkedin.com/in/jimhaager/) (AMD) and [Gregor
+Kaplan](https://www.linkedin.com/in/gregor-kaplan-2429141/) (Amazon)—my first managers—for
+their guidance, support, and recommendations.
+
+**News**
 
 <div class="timeline-scroll">
   <ul class="timeline">
@@ -62,11 +69,3 @@ built real-time dashboards for executives.
     </li>
   </ul>
 </div>
-
-I’m grateful to my professors for their continued support throughout my journey,
-including Prof. Wyss-Gallifent, Prof. Mastrantonis, and Prof. [Michael
-Hicks](https://www.cis.upenn.edu/~mhna/) (Professor, University of
-Pennsylvania). I’m also grateful to [James
-Haager](https://www.linkedin.com/in/jimhaager/) (AMD) and [Gregor
-Kaplan](https://www.linkedin.com/in/gregor-kaplan-2429141/) (Amazon)—my first managers—for
-their guidance, support, and recommendations.

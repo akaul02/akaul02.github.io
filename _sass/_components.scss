@@ -215,13 +215,13 @@ ul.task-list input[type="checkbox"] {
 }
 
 .timeline-scroll ul.timeline {
-  padding-left: 1.4rem;
-  list-style-type: disc;
-  list-style-position: outside;
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
 }
 
 .timeline-scroll ul.timeline li {
-  padding-left: 0.6rem;
+  padding-left: 1.3rem;
   text-indent: 0;
   margin-bottom: 0.5rem;
 }
