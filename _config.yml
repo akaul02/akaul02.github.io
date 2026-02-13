@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Aryan
 middle_name:
 last_name: Kaul
-contact_note: "Email: aryan.kaul@columbia.edu · Phone: 202-740-0833"
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   MSCS student at Columbia University (May 2027) and Software Engineer at Amazon (Kindle Mobile
   Platforms), focused on human–AI trust, accessibility, and Android UI systems.

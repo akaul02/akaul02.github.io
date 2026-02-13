@@ -8,6 +8,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   alt: "Aryan in graduation attire standing in front of the McKeldin Mall fountain with the UMD library in the background."
+  more_info: "McKeldin Mall, University of Maryland"
 
 selected_papers: false
 social: true
@@ -28,7 +29,7 @@ and the [Computational Design Lab](https://www.cs.columbia.edu/~chilton/) on
 human-centered, agentic productivity tools, with a focus on preserving user
 agency when working with AI. I'm also leading a project with Prof. [Zhuo
 Zhang](https://zzhang.xyz/) on vision-language models and GUI testing agents to
-help uncover deceptive UI flows in mobile applications.
+help uncover deceptive UI flows in mobile apps.
 
 I earned my B.S. in Computer Science from the [University of Maryland](https://www.umd.edu/).
 While there, I was a TA for CMSC 250 (Discrete Structures) with Prof. [Justin
@@ -49,17 +50,15 @@ built real-time dashboards for executives.
   <ul class="timeline">
     <li>January 2026: Started M.S. in Computer Science at Columbia University</li>
     <li>
-      May 2025: Speaker at Amazon GAAM. (Global Accessibility Awareness Month)
-      (<a href="https://www.aboutamazon.com/news/workplace/raising-awareness-of-accessibility-in-may-and-all-year-round">Amazon GAAM</a>)
-      Talk on accessibility + design systems, focused on scaling improvements in a large legacy mobile
-      codebase
+      May 2025: Spoke at <a href="https://www.aboutamazon.com/news/workplace/raising-awareness-of-accessibility-in-may-and-all-year-round">Amazon GAAM</a>
+      (Global Accessibility Awareness Month). Talk on accessibility + design systems, focused on
+      scaling improvements in a large legacy mobile codebase.
     </li>
-    <li>May 2023: Graduated B.S. in Computer Science from the University of Maryland</li>
+    <li>May 2023: Graduated B.S. in Computer Science from the University of Maryland.</li>
     <li>May 2022: Joined Dell's Infrastructure Solutions Group as an Engineering Intern</li>
     <li>
-      May 2021: Speaker at University of Maryland Department of Mathematics. Talk on Brouwer’s
-      fixed-point theorem and continuity (slides:
-      <a href="http://drp.math.umd.edu/Project-Slides/KaulSpring2021.pdf">http://drp.math.umd.edu/Project-Slides/KaulSpring2021.pdf</a>)
+      May 2021: Spoke at University of Maryland Department of Mathematics. Talk on Brouwer’s
+      fixed-point theorem and continuity. (<a href="http://drp.math.umd.edu/Project-Slides/KaulSpring2021.pdf">slides</a>)
     </li>
   </ul>
 </div>

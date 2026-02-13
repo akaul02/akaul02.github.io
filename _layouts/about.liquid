@@ -70,7 +70,9 @@ layout: default
       <div class="social">
         {% include contact-icons.liquid class="contact-icons--about" show_resume=true %}
 
-        <div class="contact-note">{{ site.contact_note }}</div>
+        {% if site.contact_note %}
+          <div class="contact-note">{{ site.contact_note }}</div>
+        {% endif %}
       </div>
     {% endif %}
 

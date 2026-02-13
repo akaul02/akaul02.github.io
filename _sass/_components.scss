@@ -214,6 +214,16 @@ ul.task-list input[type="checkbox"] {
   margin-bottom: 1rem;
 }
 
+.timeline-scroll ul.timeline {
+  padding-left: 1.4rem;
+  list-style-position: outside;
+}
+
+.timeline-scroll ul.timeline li {
+  padding-left: 0.6rem;
+  text-indent: 0;
+}
+
 .wechat-modal {
   display: none;
   position: fixed;
