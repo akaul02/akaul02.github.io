@@ -7,9 +7,10 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
+  alt: "Aryan in graduation attire standing in front of the McKeldin Mall fountain with the UMD library in the background."
 
 selected_papers: false
-social: true
+social: false
 
 announcements:
   enabled: false
@@ -22,8 +23,8 @@ Hi! I’m currently studying Computer Science at [Columbia
 University](https://www.columbia.edu/) in New York City.
 
 At Columbia, I work with Prof. [Lydia
-Chilton](https://www.cs.columbia.edu/~chilton/) and the [Computational Design
-Lab](https://www.cs.columbia.edu/~chilton/chilton.html) on human-centered,
+Chilton](https://www.engineering.columbia.edu/faculty-staff/directory/lydia-chilton)
+and the [Computational Design Lab](https://www.cs.columbia.edu/~chilton/) on human-centered,
 agentic productivity tools, with a focus on transparency and preserving user
 agency when working with AI. I also work with Prof. [Zhuo
 Zhang](https://zzhang.xyz/) on vision-language models and GUI testing agents to
@@ -41,6 +42,25 @@ Previously, I was a software engineer at Amazon working on improving the
 digital reading experience on [Kindle](https://www.aboutamazon.com/news/devices/kindle-app-guide).
 I also spent a summer at Dell, where I consolidated cross-program reporting and
 built real-time dashboards for executives.
+
+**Timeline**
+
+<div class="timeline">
+  <ul>
+    <li>January 2026 — Started M.S. in Computer Science at Columbia University (New York City).</li>
+    <li>
+      May 2025 — Speaker (Amazon GAAM / Global Accessibility Awareness Month): Talk on accessibility +
+      design systems, focused on scaling improvements in a large legacy mobile codebase.
+      (<a href="https://www.aboutamazon.com/news/workplace/raising-awareness-of-accessibility-in-may-and-all-year-round">Amazon GAAM</a>)
+    </li>
+    <li>May 2023 — Graduated B.S. in Computer Science from the University of Maryland.</li>
+    <li>May 2022 — Joined Dell, Infrastructure Solutions Group — Software Engineering Intern.</li>
+    <li>
+      May 2021 — Speaker (University of Maryland Department of Mathematics): DRP talk on Brouwer’s
+      fixed-point theorem and continuity. (<a href="http://drp.math.umd.edu/Project-Slides/KaulSpring2021.pdf">slides</a>)
+    </li>
+  </ul>
+</div>
 
 I’m grateful to my professors for their continued support throughout my journey,
 including Prof. Wyss-Gallifent, Prof. Mastrantonis, and Prof. [Michael

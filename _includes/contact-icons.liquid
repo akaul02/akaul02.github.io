@@ -1,0 +1,76 @@
+{%- assign cv_pdf = site.data.socials.cv_pdf -%}
+{%- assign resume_pdf = site.data.socials.resume_pdf -%}
+{%- assign email = site.data.socials.email -%}
+{%- assign github = site.data.socials.github_username -%}
+{%- assign linkedin = site.data.socials.linkedin_username -%}
+{%- assign medium = site.data.socials.medium_username -%}
+{%- assign show_resume = include.show_resume | default: true -%}
+
+<div class="contact-icons {{ include.class }}">
+  {%- if cv_pdf -%}
+    <a
+      class="contact-icon-link"
+      href="{{ cv_pdf | relative_url }}"
+      aria-label="CV (PDF)"
+      title="CV (PDF)"
+    >
+      <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
+    </a>
+  {%- endif -%}
+  {%- if show_resume and resume_pdf -%}
+    <a
+      class="contact-icon-link"
+      href="{{ resume_pdf | relative_url }}"
+      aria-label="Resume (PDF)"
+      title="Resume (PDF)"
+    >
+      <i class="fa-regular fa-file-pdf" aria-hidden="true"></i>
+    </a>
+  {%- endif -%}
+  {%- if email -%}
+    <a
+      class="contact-icon-link"
+      href="mailto:{{ email | encode_email }}"
+      aria-label="Email"
+      title="Email"
+    >
+      <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+    </a>
+  {%- endif -%}
+  {%- if github -%}
+    <a
+      class="contact-icon-link"
+      href="https://github.com/{{ github }}"
+      aria-label="GitHub"
+      title="GitHub"
+      target="_blank"
+      rel="noopener"
+    >
+      <i class="fa-brands fa-github" aria-hidden="true"></i>
+    </a>
+  {%- endif -%}
+  {%- if linkedin -%}
+    <a
+      class="contact-icon-link"
+      href="https://www.linkedin.com/in/{{ linkedin }}"
+      aria-label="LinkedIn"
+      title="LinkedIn"
+      target="_blank"
+      rel="noopener"
+    >
+      <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+    </a>
+  {%- endif -%}
+  {%- if medium -%}
+    <a
+      class="contact-icon-link"
+      href="https://medium.com/@{{ medium }}"
+      aria-label="Medium"
+      title="Medium"
+      target="_blank"
+      rel="noopener"
+    >
+      <i class="fa-brands fa-medium" aria-hidden="true"></i>
+    </a>
+  {%- endif -%}
+</div>

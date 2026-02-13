@@ -2,6 +2,7 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/Aryan-Kaul-CV.pdf
+resume_pdf: /assets/pdf/Aryan-Kaul-Resume.pdf
 email: aryan.kaul@columbia.edu
 github_username: akaul02
 linkedin_username: aryankaul
