@@ -68,7 +68,7 @@ layout: default
     <!-- Social -->
     {% if page.social %}
       <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
+        {% include contact-icons.liquid class="contact-icons--about" show_resume=true %}
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>

@@ -13,9 +13,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text:
 keywords: aryan kaul, columbia university, mscs, software engineer, android, accessibility
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-navbar_logo: columbia.png
-navbar_logo_alt: Columbia University
+icon: columbia.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: "https://akaul02.github.io"
 baseurl: ""

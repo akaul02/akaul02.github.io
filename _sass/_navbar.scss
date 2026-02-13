@@ -59,14 +59,7 @@
     color: var(--global-text-color);
   }
 
-  .navbar-logo {
-    height: 24px;
-    width: auto;
-    margin-right: 8px;
-    vertical-align: text-bottom;
-  }
-
-  .nav-icons {
+  .navbar-icons-left {
     display: flex;
     align-items: center;
 
@@ -131,6 +124,11 @@
       }
     }
   }
+}
+
+.contact-icons--navbar {
+  font-size: 1rem;
+  opacity: 0.8;
 }
 
 .navbar-toggler {
