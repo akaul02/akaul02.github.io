@@ -216,12 +216,24 @@ ul.task-list input[type="checkbox"] {
 
 .timeline-scroll ul.timeline {
   padding-left: 1.4rem;
-  list-style-position: outside;
+  list-style: none;
 }
 
 .timeline-scroll ul.timeline li {
-  padding-left: 0.6rem;
+  padding-left: 0.8rem;
   text-indent: 0;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-scroll ul.timeline li::before {
+  top: 0.1rem;
+  left: 0;
+  min-height: 100%;
+}
+
+.contact-icons--about {
+  margin-top: 0.6rem;
+  margin-bottom: 0.4rem;
 }
 
 .wechat-modal {

@@ -8,7 +8,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   alt: "Aryan in graduation attire standing in front of the McKeldin Mall fountain with the UMD library in the background."
-  more_info: "McKeldin Mall, University of Maryland"
+  more_info: "McKeldin Mall,<br>University of Maryland"
 
 selected_papers: false
 social: true
@@ -67,6 +67,6 @@ I’m grateful to my professors for their continued support throughout my journe
 including Prof. Wyss-Gallifent, Prof. Mastrantonis, and Prof. [Michael
 Hicks](https://www.cis.upenn.edu/~mhna/) (Professor, University of
 Pennsylvania). I’m also grateful to [James
-Haager](https://www.linkedin.com/in/jimhaager/) and [Gregor
-Kaplan](https://www.linkedin.com/in/gregor-kaplan-2429141/)—my first managers—for
+Haager](https://www.linkedin.com/in/jimhaager/) (AMD) and [Gregor
+Kaplan](https://www.linkedin.com/in/gregor-kaplan-2429141/) (Amazon)—my first managers—for
 their guidance, support, and recommendations.
