@@ -2,14 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Aryan Kaul # the website title (if blank, full name will be used instead)
 first_name: Aryan
 middle_name:
 last_name: Kaul
 contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  MSCS student at Columbia University (May 2027) and Software Engineer at Amazon (Kindle Mobile
-  Platforms), focused on human–AI trust, accessibility, and Android UI systems.
+  Aryan Kaul — Computer Science at Columbia University.
 footer_text:
 keywords: aryan kaul, columbia university, mscs, software engineer, android, accessibility
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)

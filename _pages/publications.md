@@ -7,4 +7,4 @@ nav_order: 1
 description: Publications
 ---
 
-{% bibliography --group_by none %}
+{% bibliography %}
