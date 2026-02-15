@@ -7,4 +7,6 @@ nav_order: 1
 description: Publications
 ---
 
-{% bibliography %}
+<div class="publications">
+  {% bibliography %}
+</div>
