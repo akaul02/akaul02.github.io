@@ -62,8 +62,8 @@ their guidance, support, and recommendations.
       scaling improvements in a large legacy mobile codebase.
     </li>
     <li>May 2023: Graduated B.S. in Computer Science from the University of Maryland.</li>
-    <li>August 2019: Started B.S. in Computer Science at the University of Maryland (College Park).</li>
     <li>May 2022: Joined Dell's Infrastructure Solutions Group as an Engineering Intern</li>
+    <li>August 2019: Started B.S. in Computer Science at the University of Maryland (College Park).</li>
     <li>
       May 2021: Spoke at University of Maryland Department of Mathematics. Talk on Brouwer’s
       fixed-point theorem and continuity. (<a href="http://drp.math.umd.edu/Project-Slides/KaulSpring2021.pdf">slides</a>)
