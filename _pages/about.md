@@ -22,7 +22,7 @@ latest_posts:
 Hi, I’m Aryan Kaul, studying Computer Science at [Columbia
 University](https://www.columbia.edu/) in New York City.
 
-I work in the [Computer-Enabled Abilities Laboratory](https://ceal.cs.columbia.edu/)
+I work in the [Computer-Enabled Abilities Laboratory](https://ceal.cs.columbia.edu/people/)
 (CEAL), led by Prof. [Brian A. Smith](https://www.cs.columbia.edu/~brian/), and am
 part of the broader [Data, Agents & Processes Lab](https://daplab.cs.columbia.edu/)
 (DAPLab) community.
