@@ -10,7 +10,7 @@ profile:
   alt: "Aryan in graduation attire standing in front of the McKeldin Mall fountain with the UMD library in the background."
 
 selected_papers: false
-social: true
+social: false
 
 announcements:
   enabled: false
@@ -77,14 +77,13 @@ Kaplan](https://www.linkedin.com/in/gregor-kaplan-2429141/).
     <li>January 2026: Started M.S. in Computer Science at Columbia University.</li>
     <li>
       May 2025: Spoke at <a href="https://www.aboutamazon.com/news/workplace/raising-awareness-of-accessibility-in-may-and-all-year-round">Amazon GAAM</a>
-      (Global Accessibility Awareness Month). Talk on accessibility + design systems, focused on
-      scaling improvements in a large legacy mobile codebase.
+      (Global Accessibility Awareness Month) on design systems for scaling accessibility.
     </li>
     <li>May 2023: Graduated B.S. in Computer Science from the University of Maryland.</li>
     <li>May 2022: Joined Dell's Infrastructure Solutions Group as an Engineering Intern</li>
     <li>
-      May 2021: Spoke at University of Maryland Department of Mathematics. Talk on Brouwer’s
-      fixed-point theorem and continuity. (<a href="http://drp.math.umd.edu/Project-Slides/KaulSpring2021.pdf">slides</a>)
+      May 2021: Spoke at University of Maryland Department of Mathematics on Brouwer’s
+      fixed-point theorem and continuity.
     </li>
     <li>August 2019: Started B.S. in Computer Science at the University of Maryland (College Park).</li>
   </ul>
