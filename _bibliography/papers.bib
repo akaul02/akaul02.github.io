@@ -1,12 +1,49 @@
 ---
 ---
 
-@misc{kaul2021brouwer,
+@misc{kaul2026rasoi,
+  bibtex_show     = {true},
+  title           = {Rasoi: Visual Diffs for Evaluating Structural Changes Made by Coding Agents},
+  author          = {Sahni, Riya and Kaul, Aryan and Bhatnagar, Anushka and Zhang, Xuanming and Liu, Vivian and Vir, Reya and Chilton, Lydia B.},
+  year            = {2026},
+  abstract        = {Coding agents let developers modify software rapidly through natural language. However, as agents take on larger changes, developers can lose track of how the codebase is evolving. These edits may look correct on the surface while restructuring the system in unexpected ways: duplicating logic, changing modules outside the requested scope, removing functionality developers meant to keep, or introducing architectural drift. We investigate how visual diffs can help developers understand and evaluate the structural changes that coding agents make. We present Rasoi, a design probe that maps how a codebase's architecture evolves after each agent-made edit, letting developers inspect which architectural elements and relationships were added, modified, or removed across multiple levels of abstraction. We deployed Rasoi in a week-long study with 12 developers working on their own codebases across varied technical domains. We found that visual diffs helped developers see whether changes stayed within scope, notice unexpected restructuring, and understand how modified parts related to the system as a whole. Our findings suggest that the value of oversight tools for coding agents lies less in making developers trust the agent and more in helping developers feel confident in their own evaluation of agent-made changes. We discuss implications for visual tools that support code comprehension and human oversight in AI-assisted software development.},
+  note            = {Under submission},
+  arxiv_pending   = {true},
+  preview         = {rasoi.png}
+}
+
+@inproceedings{kaul2026agents,
+  bibtex_show     = {true},
+  title           = {Agents as Auditors: Detecting Malicious UI Flows via Trajectory-Level Analysis},
+  author          = {Kaul, Aryan and Chen, Yuhang and Zhang, Zhuo},
+  booktitle       = {North East AI Agents Day},
+  year            = {2026},
+  abstract        = {Mobile apps commonly employ dark patterns—manipulative UI designs that steer users toward unintended actions—many of which are invisible on any single screen and emerge only across a sequence of interactions. We observe that a vision-language model (VLM) agent navigating an app produces exactly the interaction trace a flow-level detector needs, and propose "agents as auditors": the agent explores a target app while a multi-stage pipeline analyzes the resulting trace, modeling each interaction as an intent–response sequence and detecting where an app systematically works against user intent. A deterministic rule engine evaluates 31 signals across six rule families (disruptive ads, forced actions, nagging, permission abuse, subscription traps, and system impersonation) over sequences of screens; a trajectory-level reviewer merges compound patterns into a final verdict; and paired subscribe/cancel traces are compared to isolate the roach-motel pattern. Across 32 traces from 20 AndroZoo apps and 10 top-downloaded Google Play apps (over one billion installs combined), trajectory analysis surfaced compound violations that per-screen analysis missed—all 10 Play apps were reported via Google's potentially-harmful-application channel.},
+  note            = {Poster},
+  pdf             = {Agents-as-Auditors-NE-Agents-Day-2026.pdf},
+  website         = {https://ne-agents-day.github.io/},
+  preview         = {agents-as-auditors.png}
+}
+
+@article{sreedhar2026conversational,
+  bibtex_show     = {true},
+  title           = {Conversational Customization of Productivity Systems: A Design Probe of Malleable AI Interfaces},
+  author          = {Sreedhar, Karthik and Kaul, Aryan and Chilton, Lydia B.},
+  journal         = {arXiv preprint arXiv:2605.11149},
+  year            = {2026},
+  arxiv           = {2605.11149},
+  abstract        = {Customization has long been a central goal in interactive systems, yet prior work shows that end-user tailoring occurs infrequently and is often confined to initial setup or moments of breakdown. Recent advances in generative AI suggest that highly malleable systems—where users can modify system behavior through natural language—are now technically feasible. However, it remains unclear how such malleability is used in practice: What kinds of customizations do users create, when do they choose to customize, and how do these modifications shape their experience of everyday tools? We present a design probe that uses a conversationally customizable email system as an instrument to study how users create and refine functionality within everyday tools. The system allows users to iteratively modify their inbox by restructuring categories, introducing interface elements, and authoring new workflow behaviors directly through natural language interaction. We study how participants create, refine, and use these features over several days within their own email workflows. We find that users' customizations are often grounded in existing patterns, which they adapt and specialize to fit their needs, rather than generating entirely novel functionality. Malleability changes how users engage with their inbox, shifting it from a fixed interface to a flexible data layer shaped through user-authored features. At the same time, customization introduces new forms of risk, including mis-specified behavior, unintended filtering, and uncertainty around outcomes, which users manage through ongoing oversight and refinement. These findings highlight how conversational customization becomes embedded within everyday interaction, and point toward the need for systems that support iterative refinement, visibility into behavior, and safe experimentation as users shape their own tools.},
+  note            = {Under submission},
+  preview         = {malleable.png}
+}
+
+@inproceedings{kaul2021brouwer,
   bibtex_show = {true},
   title       = {Brouwer's Fixed-Point Theorem and Continuity},
   author      = {Kaul, Aryan and Mastrantonis, Vlassis},
+  booktitle   = {University of Maryland Directed Reading Program},
   year        = {2021},
+  abstract    = {An expository Directed Reading Program talk connecting continuity and fixed points. Starting from low-dimensional intuition, we build toward Brouwer's fixed-point theorem—every continuous self-map of a closed disk has a fixed point—and discuss why continuity is essential to the result.},
   slides      = {http://drp.math.umd.edu/Project-Slides/KaulSpring2021.pdf},
-  code        = {https://www.overleaf.com/read/fbdcssxzrynz#592351},
-  preview     = {math.jpg}
+  preview     = {drp-logo.png}
 }
