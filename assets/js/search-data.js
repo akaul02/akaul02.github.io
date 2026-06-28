@@ -11,10 +11,17 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "Publications",
+          description: "Papers, preprints, and talks.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "Selected projects, prototypes, and class work.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
           },
         },{id: "nav-cv",
           title: "CV",
@@ -30,7 +37,17 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/resume/";
           },
-        },{
+        },{id: "projects-lionsmed",
+          title: 'LionsMed',
+          description: "Crowdsourced real-time clinic data for New Yorkers, vital in a disaster.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_lionsmed/";
+            },},{id: "projects-rekindle",
+          title: 'ReKindle',
+          description: "An immersive, projected group experience for rekindling connection.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_rekindle/";
+            },},{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
