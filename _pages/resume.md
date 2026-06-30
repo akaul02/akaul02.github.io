@@ -3,7 +3,7 @@ layout: page
 title: Resume
 permalink: /resume/
 nav: true
-nav_order: 4
+nav_order: 5
 nav_url: /assets/pdf/Aryan-Kaul-Resume.pdf
 nav_new_tab: true
 description: Resume PDF

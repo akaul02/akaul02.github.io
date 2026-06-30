@@ -3,7 +3,7 @@ layout: page
 title: CV
 permalink: /cv/
 nav: true
-nav_order: 3
+nav_order: 4
 nav_url: /assets/pdf/Aryan-Kaul-CV.pdf
 nav_new_tab: true
 description: CV PDF

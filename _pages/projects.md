@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: Selected projects, prototypes, and class work.
 nav: true
-nav_order: 2
+nav_order: 3
 horizontal: false
 ---
 

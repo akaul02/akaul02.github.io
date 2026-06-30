@@ -186,3 +186,9 @@
 .citation-number {
   color: var(--global-theme-color);
 }
+
+// Slightly larger titles on the Blogs page for clearer hierarchy over the
+// description below them (Blogs reuses the publication card styles).
+.publications.blogs ol.bibliography li .title {
+  font-size: 1.2rem;
+}
