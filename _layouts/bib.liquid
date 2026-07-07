@@ -203,8 +203,8 @@
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
-      {% if entry.arxiv_pending %}
-        <a class="btn btn-sm z-depth-0" role="button" title="arXiv preprint coming soon" style="cursor: default;">arXiv</a>
+      {% if entry.pdf_email %}
+        <a class="pdf-request btn btn-sm z-depth-0" role="button" title="Email {{ entry.pdf_email }} for a PDF until this is on arXiv">PDF</a>
       {% endif %}
       {% if entry.hal %}
         <a href="https://hal.science/{{ entry.hal }}" class="btn btn-sm z-depth-0" role="button">HAL</a>
@@ -376,6 +376,16 @@
       <!-- Hidden abstract block -->
       <div class="abstract hidden">
         <p>{{ entry.abstract }}</p>
+      </div>
+    {% endif %}
+
+    {% if entry.pdf_email %}
+      <!-- Hidden PDF-request block -->
+      <div class="pdf-request hidden">
+        <p>
+          This paper isn't on arXiv yet. Email
+          <a href="mailto:{{ entry.pdf_email }}?subject=PDF request: {{ entry.title }}">{{ entry.pdf_email }}</a> for a PDF.
+        </p>
       </div>
     {% endif %}
 

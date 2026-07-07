@@ -179,6 +179,12 @@
     div.award.hidden.open {
       border-color: var(--global-highlight-color);
     }
+    div.pdf-request.hidden {
+      border: dashed 1px var(--global-bg-color);
+    }
+    div.pdf-request.hidden.open {
+      border-color: var(--global-text-color);
+    }
   }
 }
 
