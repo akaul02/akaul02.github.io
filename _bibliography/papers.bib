@@ -13,7 +13,6 @@
 }
 
 @inproceedings{kaul2026agents,
-  bibtex_show     = {true},
   title           = {Agents as Auditors: Detecting Malicious UI Flows via Trajectory-Level Analysis},
   author          = {Kaul, Aryan and Chen, Yuhang and Zhang, Zhuo},
   booktitle       = {North East AI Agents Day},
@@ -21,6 +20,7 @@
   abstract        = {Mobile apps commonly employ dark patterns—manipulative UI designs that steer users toward unintended actions—many of which are invisible on any single screen and emerge only across a sequence of interactions. We observe that a vision-language model (VLM) agent navigating an app produces exactly the interaction trace a flow-level detector needs, and propose "agents as auditors": the agent explores a target app while a multi-stage pipeline analyzes the resulting trace, modeling each interaction as an intent–response sequence and detecting where an app systematically works against user intent. A deterministic rule engine evaluates 31 signals across six rule families (disruptive ads, forced actions, nagging, permission abuse, subscription traps, and system impersonation) over sequences of screens; a trajectory-level reviewer merges compound patterns into a final verdict; and paired subscribe/cancel traces are compared to isolate the roach-motel pattern. Across 32 traces from 20 AndroZoo apps and 10 top-downloaded Google Play apps (over one billion installs combined), trajectory analysis surfaced compound violations that per-screen analysis missed—all 10 Play apps were reported via Google's potentially-harmful-application channel.},
   note            = {Poster},
   pdf             = {Agents-as-Auditors-NE-Agents-Day-2026.pdf},
+  poster          = {Agents-as-Auditors-Poster.pdf},
   website         = {https://ne-agents-day.github.io/},
   preview         = {agents-as-auditors.webp}
 }

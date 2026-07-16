@@ -204,7 +204,7 @@
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
       {% if entry.pdf_email %}
-        <a class="pdf-request btn btn-sm z-depth-0" role="button" title="Email {{ entry.pdf_email }} for a PDF until this is on arXiv">PDF</a>
+        <a class="pdf-request btn btn-sm z-depth-0" role="button" title="Submitted — email {{ entry.pdf_email }} for a copy">arXiv</a>
       {% endif %}
       {% if entry.hal %}
         <a href="https://hal.science/{{ entry.hal }}" class="btn btn-sm z-depth-0" role="button">HAL</a>
@@ -383,8 +383,8 @@
       <!-- Hidden PDF-request block -->
       <div class="pdf-request hidden">
         <p>
-          This paper isn't on arXiv yet. Email
-          <a href="mailto:{{ entry.pdf_email }}?subject=PDF request: {{ entry.title }}">{{ entry.pdf_email }}</a> for a PDF.
+          It's been submitted. In the meantime, email
+          <a href="mailto:{{ entry.pdf_email }}?subject=Paper request: {{ entry.title }}">{{ entry.pdf_email }}</a> for a copy.
         </p>
       </div>
     {% endif %}
