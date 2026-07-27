@@ -244,6 +244,12 @@ ul.task-list input[type="checkbox"] {
   background: var(--global-theme-color);
 }
 
+.publications.blogs img.preview {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
 .contact-icons--about {
   margin-top: 0.6rem;
   margin-bottom: 0.4rem;
