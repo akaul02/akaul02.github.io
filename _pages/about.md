@@ -54,9 +54,9 @@ Vlassis Mastrantonis, [Michael Hicks](https://mhicks.me/), [James
 Haager](https://www.linkedin.com/in/jimhaager/), and [Gregor
 Kaplan](https://www.linkedin.com/in/gregor-kaplan-2429141/).
 
-**News**
+<h2 class="news-heading">News</h2>
 
-<div class="timeline-scroll">
+<div class="timeline-scroll" role="region" aria-label="News timeline" tabindex="0">
   <ul class="timeline">
     <li>
       June 2026: Officially joined the <a href="https://ceal.cs.columbia.edu/people/">Computer-Enabled Abilities Laboratory</a>
@@ -80,7 +80,8 @@ Kaplan](https://www.linkedin.com/in/gregor-kaplan-2429141/).
       (Global Accessibility Awareness Month) on design systems for scaling accessibility.
     </li>
     <li>May 2023: Graduated B.S. in Computer Science from the University of Maryland.</li>
-    <li>May 2022: Joined Dell's Infrastructure Solutions Group as an Engineering Intern</li>
+    <li>May 2022: Joined Amazon as a Software Development Engineer Intern.</li>
+    <li>May 2021: Joined Dell's Infrastructure Solutions Group as an Engineering Intern.</li>
     <li>
       May 2021: Spoke at University of Maryland Department of Mathematics on Brouwer’s
       fixed-point theorem and continuity.
