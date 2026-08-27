@@ -259,15 +259,17 @@ ul.task-list input[type="checkbox"] {
 }
 
 .timeline-scroll ul.timeline li {
-  padding-left: 1.3rem;
+  padding-left: 1rem;
   text-indent: 0;
-  margin-bottom: 0.5rem;
+  min-height: 0;
+  margin-bottom: 0.6rem;
 }
 
 .timeline-scroll ul.timeline li::before {
-  top: 0.1rem;
-  left: 0.25rem;
-  min-height: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  min-height: 0;
   width: 2px;
   background: var(--global-theme-color);
 }
