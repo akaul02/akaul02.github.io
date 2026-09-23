@@ -72,6 +72,13 @@
         font-size: 0.8rem;
         letter-spacing: 0.08em;
         text-transform: uppercase;
+
+        // Stacked above the entry on phones, a full-width empty box is just a gap.
+        @media (max-width: 575.98px) {
+          aspect-ratio: auto;
+          padding: 0.6rem;
+          margin-bottom: 0.5rem;
+        }
       }
 
       .abbr {

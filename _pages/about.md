@@ -37,9 +37,7 @@ help identify potentially harmful applications.
 I earned my B.S. in Computer Science from the [University of
 Maryland](https://www.umd.edu/). At Maryland, I was a TA for CMSC 250, Discrete
 Structures, with Prof. [Justin
-Wyss-Gallifent](https://math.umd.edu/directory/profile/jwyg). I also gave a talk
-in the Department of Mathematics on fixed-point theorems and continuity, mentored
-by Prof. [Vlassis Mastrantonis](https://vmastr.github.io/).
+Wyss-Gallifent](https://math.umd.edu/directory/profile/jwyg).
 
 Before Columbia, I was a software engineer at Amazon, where I worked on improving
 the digital reading experience on
@@ -50,7 +48,7 @@ dashboards for executives.
 I’m grateful to the professors, mentors, and managers who believed in
 me early, and helped make this path possible through their recommendations
 including Justin Wyss-Gallifent,
-Vlassis Mastrantonis, [Michael Hicks](https://mhicks.me/), [James
+[Vlassis Mastrantonis](https://vmastr.github.io/), [Michael Hicks](https://mhicks.me/), [James
 Haager](https://www.linkedin.com/in/jimhaager/), and [Gregor
 Kaplan](https://www.linkedin.com/in/gregor-kaplan-2429141/).
 

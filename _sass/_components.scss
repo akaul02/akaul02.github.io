@@ -250,6 +250,12 @@ ul.task-list input[type="checkbox"] {
     outline-offset: 2px;
     border-radius: 4px;
   }
+
+  // A scroll box inside a scrolling page traps touch scrolling, so phones get the full list.
+  @media (max-width: 575.98px) {
+    max-height: none;
+    overflow-y: visible;
+  }
 }
 
 .timeline-scroll ul.timeline {

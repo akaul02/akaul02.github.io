@@ -1,20 +1,17 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
-// Toggle through light and dark theme settings.
+// The toggle flips whatever is showing and remembers that as an explicit choice.
 let toggleThemeSetting = () => {
-  let themeSetting = determineThemeSetting();
-  if (themeSetting == "light") {
-    setThemeSetting("dark");
-  } else {
-    setThemeSetting("light");
-  }
+  setThemeSetting(determineComputedTheme() == "dark" ? "light" : "dark");
 };
 
-// Change the theme setting and apply the theme.
+// Change the theme setting and apply the theme. "system" means no saved choice.
 let setThemeSetting = (themeSetting) => {
-  localStorage.setItem("theme", themeSetting);
-
-  document.documentElement.setAttribute("data-theme-setting", themeSetting);
+  if (themeSetting == "system") {
+    localStorage.removeItem(THEME_CHOICE_KEY);
+  } else {
+    localStorage.setItem(THEME_CHOICE_KEY, themeSetting);
+  }
 
   applyTheme();
 };
@@ -56,6 +53,8 @@ let applyTheme = () => {
   }
 
   document.documentElement.setAttribute("data-theme", theme);
+  // The toggle icons key off this, so it always holds the theme being shown.
+  document.documentElement.setAttribute("data-theme-setting", theme);
 
   // Add class to tables.
   let tables = document.getElementsByTagName("table");
@@ -263,12 +262,16 @@ let transTheme = () => {
   }, 500);
 };
 
-// Determine the expected state of the theme toggle, which can be "dark" or "light".
-// Default is "light".
+// Only a click on the toggle writes this key. (The old "theme" key was written on every
+// page load, so it can't tell a real choice from a first visit and is ignored.)
+const THEME_CHOICE_KEY = "theme-choice";
+
+// Determine the theme setting, which can be "dark", "light", or "system". Default is
+// "system", so the site matches the visitor's browser or OS until they pick otherwise.
 let determineThemeSetting = () => {
-  let themeSetting = localStorage.getItem("theme");
+  let themeSetting = localStorage.getItem(THEME_CHOICE_KEY);
   if (themeSetting != "dark" && themeSetting != "light") {
-    themeSetting = "light";
+    themeSetting = "system";
   }
   return themeSetting;
 };
@@ -276,6 +279,10 @@ let determineThemeSetting = () => {
 // Determine the computed theme, which can be "dark" or "light".
 let determineComputedTheme = () => {
   let themeSetting = determineThemeSetting();
+  if (themeSetting == "system") {
+    const userPref = window.matchMedia;
+    return userPref && userPref("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  }
   return themeSetting;
 };
 
@@ -293,7 +300,12 @@ let initTheme = () => {
     });
   });
 
-  // System theme changes are ignored to keep the toggle strictly light/dark.
+  // Follow OS/browser theme changes live, unless the visitor has made a choice.
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+    if (determineThemeSetting() == "system") {
+      applyTheme();
+    }
+  });
 };
 
 // Get the appropriate background color for Google Calendar based on current theme
