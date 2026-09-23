@@ -59,7 +59,7 @@ Kaplan](https://www.linkedin.com/in/gregor-kaplan-2429141/).
 <div class="timeline-scroll" role="region" aria-label="News timeline" tabindex="0">
   <ul class="timeline">
     <li>
-      September 2026: Gave a talk and demo on safer links for screen reader users at the <a href="https://catai.ai.cornell.edu">Cornell AI and Accessibility Summit</a>.
+      September 2026: Gave a talk and demo on safer links for speech-first interfaces at the <a href="https://catai.ai.cornell.edu">Cornell AI and Accessibility Summit</a>.
     </li>
     <li>
       June 2026: Officially joined the <a href="https://ceal.cs.columbia.edu/people/">Computer-Enabled Abilities Laboratory</a>
