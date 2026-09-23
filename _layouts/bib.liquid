@@ -25,7 +25,9 @@
           <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
-      {% if entry.preview %}
+      {% if entry.coming_soon %}
+        <div class="preview preview-coming-soon rounded" aria-hidden="true">Coming soon</div>
+      {% elsif entry.preview %}
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}" alt="{{ entry.preview_alt }}">
         {% else %}
@@ -48,7 +50,9 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    {% unless entry.coming_soon %}
+      <div class="title">{{ entry.title }}</div>
+    {% endunless %}
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -180,9 +184,11 @@
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
-    <div class="periodical">
-      {{ periodical | strip }}
-    </div>
+    {% unless entry.category == 'preprint' %}
+      <div class="periodical">
+        {{ periodical | strip }}
+      </div>
+    {% endunless %}
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
@@ -262,6 +268,9 @@
       {% endif %}
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+      {% endif %}
+      {% if entry.demo %}
+        <a href="{{ entry.demo }}" class="btn btn-sm z-depth-0" role="button">Demo</a>
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}

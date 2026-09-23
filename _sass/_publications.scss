@@ -61,6 +61,19 @@
         object-fit: cover;
       }
 
+      .preview-coming-soon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        aspect-ratio: 3 / 2;
+        border: 2px dashed var(--global-divider-color);
+        color: var(--global-text-color-light);
+        font-size: 0.8rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
       .abbr {
         margin-bottom: 0.5rem;
 

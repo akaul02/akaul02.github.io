@@ -23,7 +23,7 @@ Hi, I’m Aryan Kaul, studying Computer Science at [Columbia
 University](https://www.columbia.edu/) in New York City.
 
 I work in the [Computer-Enabled Abilities Laboratory](https://ceal.cs.columbia.edu/people/)
-(CEAL), led by Prof. [Brian A. Smith](https://www.cs.columbia.edu/~brian/), and am
+(CEAL), advised by Prof. [Brian A. Smith](https://www.cs.columbia.edu/~brian/), and am
 part of the broader [Data, Agents & Processes Lab](https://daplab.cs.columbia.edu/)
 (DAPLab) community.
 
@@ -58,6 +58,9 @@ Kaplan](https://www.linkedin.com/in/gregor-kaplan-2429141/).
 
 <div class="timeline-scroll" role="region" aria-label="News timeline" tabindex="0">
   <ul class="timeline">
+    <li>
+      September 2026: Gave a talk and demo on safer links for screen reader users at the <a href="https://catai.ai.cornell.edu">Cornell AI and Accessibility Summit</a>.
+    </li>
     <li>
       June 2026: Officially joined the <a href="https://ceal.cs.columbia.edu/people/">Computer-Enabled Abilities Laboratory</a>
       (CEAL) at Columbia, advised by Prof. Brian Smith.
